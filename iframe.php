@@ -1,1 +1,5 @@
-<!DOCTYPE html><html><?php echo file_get_contents($_REQUEST['url']); ?></html>
+<?php
+
+header('Content-Type: text/html; charset=utf-8');
+
+ echo file_get_contents($_REQUEST['url']); ?>
